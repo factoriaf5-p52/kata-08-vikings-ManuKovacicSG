@@ -7,8 +7,11 @@ export class Soldier {
         this.strength = strengthArg
     };
 
-    attack(s:number){
-        return this.strength = s
+    attack(){
+        return this.strength = 0;
     }
 
+    receiveDamage(dmg:number){
+        this.health -= dmg
+    }
 }

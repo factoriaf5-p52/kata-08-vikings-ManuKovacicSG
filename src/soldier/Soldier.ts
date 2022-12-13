@@ -8,7 +8,7 @@ export class Soldier {
     };
 
     attack(){
-        return this.strength = 0;
+        return this.strength;
     }
 
     receiveDamage(dmg:number){

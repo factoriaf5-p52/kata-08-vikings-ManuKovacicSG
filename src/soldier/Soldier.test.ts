@@ -40,8 +40,8 @@ describe('Soldier', () => {
          expect(soldier.health).toEqual(health - 50);
         });
 
-        // test("shouldn't return anything", ()=>
-        //   expect(soldier.receiveDamage(50)).toEqual(undefined));
+         test("shouldn't return anything", ()=>
+           expect(soldier.receiveDamage(50)).toEqual(undefined));
 
         })
 })
